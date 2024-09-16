@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone ="no"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE student-library SYSTEM "student.dtd">
+
+<student-library>
+  <student name="Gordon Matthew Sumner">
+    <nickname>"Sting"</nickname>
+    <id>1234567</id>
+    <email>"sting@thepolice.com"</email>
+    <phone number="212.423.4567"></phone>
+    <level>"first year"</level>
+    <gpa>4.0</gpa>
+    <major>"Music"</major>
+    <minor>"English"</minor>
+    <status>"full-time"</status>
+    <advisor>"Andy Summers"</advisor>
+    <enroll_date day="08-25-1969"></enroll_date>
+    <grad_date day="05-01-1973"></grad_date>
+    </student>
+  <student name="Kim Thayil">
+    <nickname></nickname>
+    <id>4567890</id>
+    <email>"kim@soundgarden.com"</email>
+    <phone number="206.123.4567"></phone>
+    <level>"second year"</level>
+    <gpa>3.0</gpa>
+    <major>"Philosophy"</major>
+    <minor>"Music"</minor>
+    <status>"full-time"</status>
+    <advisor>"Chris Cornell"</advisor>
+    <enroll_date day="08-25-1978"></enroll_date>
+    <grad_date day="05-01-1982"></grad_date>
+    </student>
+  <student name="Saul Hudson">
+    <nickname>"Slash"</nickname>
+    <id>8302438</id>
+    <email>"slash@gnr.com"</email>
+    <phone number="213.456.8392"></phone>
+    <level>"fourth year"</level>
+    <gpa>2.0</gpa>
+    <major>"Music"</major>
+    <minor>"Criminal Justice"</minor>
+    <status>"part-time"</status>
+    <advisor>"Axl Rose"</advisor>
+    <enroll_date day="08-25-1983"></enroll_date>
+    <grad_date day="05-01-1987"></grad_date>
+    </student>
+  <student name="Emily Kokal">
+    <nickname></nickname>
+    <id>2983928</id>
+    <email>"emily@warpaint.com"</email>
+    <phone number="213.123.7654"></phone>
+    <level>"third year"</level>
+    <gpa>3.8</gpa>
+    <major>"Political Science"</major>
+    <minor>"Law"</minor>
+    <status>"full-time"</status>
+    <advisor>"Jenny Lee Lindberg"</advisor>
+    <enroll_date day="08-25-1998"></enroll_date>
+    <grad_date day="05-01-2002"></grad_date>
+    </student>
+    </student>
+  <student name="Mike Inez">
+  <nickname></nickname>
+    <id>7645726</id>
+    <email>"mike@aic.com"</email>
+    <phone number="213.444.3323"></phone>
+    <level>"second year"</level>
+    <gpa>4.0</gpa>
+    <major>"Business Management"</major>
+    <minor>"Math"</minor>
+    <status>"full-time"</status>
+    <advisor>"Jerry Cantrell"</advisor>
+    <enroll_date day="08-25-1984"></enroll_date>
+    <grad_date day="05-01-1988"></grad_date>
+    </student>
+</student-library>

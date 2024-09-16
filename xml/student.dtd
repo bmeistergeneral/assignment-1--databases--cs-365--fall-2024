@@ -1,0 +1,26 @@
+<!DOCTYPE student-library
+[
+<!ELEMENT student-library (student)+>
+<!ELEMENT student(nickname*, id, email, phone, level, gpa, major, minor, status, advisor, enroll_date, grad_date)>
+<!ELEMENT nickname (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT level (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT enroll_date (#PCDATA)>
+<!ELEMENT grad_date (#PCDATA)>
+
+<!ATTLIST student
+          name CDATA #REQUIRED>
+<!ATTLIST phone
+          number CDATA #REQUIRED>
+<!ATTLIST  enroll_date
+          day CDATA #REQUIRED>
+<!ATTLIST  grad_date
+          day CDATA #REQUIRED>
+]>
