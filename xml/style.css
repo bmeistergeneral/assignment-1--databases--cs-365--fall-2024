@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root,
+:root::before,
+student,
+student::before,
+nickname,
+id,
+email,
+phone,
+phone::before,
+level,
+gpa,
+major,
+minor,
+status,
+advisor,
+enroll_date,
+grad_date,
+enroll_date::before,
+grad_date::before
+
+:root {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Roboto', sans-serif;
+}
+
+:root::before {
+  content: 'Student Library';
+  text-align: center;
+  font-size: 3rem;
+  margin: 36px 0;
+}
+
+student::before {
+  content: '' attr(name) '';
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 4px 0;
+  font-style: italic;
+  display: inline-block;
+}
+
+nickname {
+  font-weight: 100;
+  margin: 0 0 20px;
+}
+
+phone {
+  font-weight: 200;
+  display: flex;
+}
+
+phone::before {
+  content: '' attr(number) ' - ';
+}
+
+id {
+  font-weight: 200;
+  content: ', ';
+}
+
+email::before {
+  font-weight: 200;
+  content: 'Student"s email ';
+}
+
+email::after {
+  content: ' : ';
+}
+
+level::before {
+  font-weight: 200;
+  content: 'College year ';
+}
+
+level::after {
+  content: ' | ';
+}
+
+gpa {
+  font-weight: 200;
+  content: ', ';
+}
+
+major {
+  font-weight: 200;
+  content: ', ';
+}
+
+minor {
+  font-weight: 200;
+  content: ', ';
+}
+
+status {
+  font-weight: 200;
+  content: ', ';
+}
+
+advisor {
+  font-weight: 200;
+  content: ', ';
+}
+
+enroll_date::before {
+  content: '' attr(day) ' ( ';
+}
+
+enroll_date::after {
+  content: '' attr(day) ' ) ';
+}
+
+grad_date::before {
+  content: '' attr(day) ' ( ';
+}
+
+grad_date::after {
+  content: '' attr(day) ' ) ';
+}
+
+
