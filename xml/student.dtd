@@ -1,20 +1,36 @@
 <!DOCTYPE student-library
 [
 <!ELEMENT student-library (student)+>
+<!-- This is the root element which must have one or more students. -->
 <!ELEMENT student(nickname*, id, email, phone, level, gpa, major, minor, status, advisor, enroll_date, grad_date)>
+<!-- This is the student element which can have zero or more nicknames,
+and must have at least one of the other description categories. -->
 <!ELEMENT nickname (#PCDATA)>
+<!-- Nickname -->
 <!ELEMENT id (#PCDATA)>
+<!-- ID -->
 <!ELEMENT email (#PCDATA)>
+<!-- Email -->
 <!ELEMENT phone (#PCDATA)>
+<!-- Phone -->
 <!ELEMENT level (#PCDATA)>
+<!-- Level -->
 <!ELEMENT gpa (#PCDATA)>
+<!-- GPA -->
 <!ELEMENT major (#PCDATA)>
+<!-- Major -->
 <!ELEMENT minor (#PCDATA)>
+<!-- Minor -->
 <!ELEMENT status (#PCDATA)>
+<!-- Status -->
 <!ELEMENT advisor (#PCDATA)>
+<!-- Advisor -->
 <!ELEMENT enroll_date (#PCDATA)>
+<!-- Enroll Date -->
 <!ELEMENT grad_date (#PCDATA)>
+<!-- Grad Date -->
 
+<!-- List of attributes with elements, made them required. -->
 <!ATTLIST student
           name CDATA #REQUIRED>
 <!ATTLIST phone
